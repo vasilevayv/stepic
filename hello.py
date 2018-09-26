@@ -3,6 +3,6 @@ def app(env, start_resp):
     headers = [
         ('Content-Type', 'text/plain')
         ]
-    body = []
+    body = [i for i in env[QUERY_STRING].split('&')]
     start_resp(status, headers)
     return body
