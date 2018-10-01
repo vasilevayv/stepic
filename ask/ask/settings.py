@@ -25,7 +25,7 @@ SECRET_KEY = '=ymn7_qa)!1@uymp-xmn8w_bx264c8**xj9u)=2br(r5%x$)89'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
